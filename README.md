@@ -50,13 +50,4 @@ A cross-platform Flutter application (Web & Mobile) to search and track weather 
 - **Firebase Cloud Functions** – For secure email sending on the web
 - **WeatherAPI** – To fetch weather data: [https://www.weatherapi.com/](https://www.weatherapi.com/)
 
-### 📦 Dependencies
 
-```yaml
-dependencies:
-  cupertino_icons: ^1.0.8
-  mailer: ^6.0.1
-  http: ^1.4.0
-  shared_preferences: ^2.5.3
-  geolocator: ^14.0.0
-  flutter_bloc: ^9.1.1
