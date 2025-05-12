@@ -1,0 +1,12 @@
+specVersion: "v1"
+serviceId: "weather-api-golden-owl"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "weather-api-golden-owl-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
