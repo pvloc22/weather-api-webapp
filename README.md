@@ -4,39 +4,38 @@ A cross-platform Flutter application (Web & Mobile) to search and track weather 
 
 ## ✨ Features
 
-- 🔍 **Search Weather by Location**
+- 🔍 **Search Weather by Location**  
   - Search for any **city or country** to view current weather.
   
-- 🌡️ **Display Today's Weather**
+- 🌡️ **Display Today's Weather**  
   - Shows **temperature**, **humidity**, **wind speed**, and more.
 
-- 📆 **Forecast Feature**
+- 📆 **Forecast Feature**  
   - Displays **4-day forecast**, with **"load more"** to see further days.
 
-- 🕒 **Temporary History**
-  - Weather data is **temporarily saved** for each day using `shared_preferences`.
+- 🕒 **Temporary History**  
+  - Weather data is **temporarily saved** for each day using `shared_preferences`.  
   - Users can **re-display** weather info for cities searched during the same day.
 
-- 📧 **Email Subscription**
-  - Users can **subscribe/unsubscribe** to receive daily weather updates via email.
-  - **Email confirmation** is required to activate the subscription.
-  - Built-in **SMTP email sending** with secure confirmation link.
+- 📧 **Email Subscription**  
+  - Users can **subscribe/unsubscribe** to receive daily weather updates via email.  
+  - **Email confirmation** is required to activate the subscription.  
+  - Built-in **Node.js Express server** handles **SMTP email sending** with secure confirmation link.  
+  - 🔗 [Server Source Code](https://github.com/pvloc22/weather-email-express-deployment)
 
-- ☁️ **Flutter Web Deployment**
-  - **Deployed using Firebase Hosting.**
-  - Supports **Cloud Functions** for backend logic like email sending.
-
+- ☁️ **Flutter Web Deployment**  
+  - **Deployed using Firebase Hosting.**  
+  - 🔗 [WebApp](https://weather-api-165ec.web.app)
 ---
 
-## 📷 Screenshots
-
-> _Add screenshots for mobile and web here._
 
 ### 📱 Mobile UI  
-_👉 Add mobile UI images here_
+![CleanShot 2025-05-13 at 03 53 15@2x](https://github.com/user-attachments/assets/9a29d0e3-e73e-4b1e-906c-fc4251071ad4)
+
 
 ### 💻 Web UI  
-_👉 Add web UI images here_
+![CleanShot 2025-05-13 at 03 51 51@2x](https://github.com/user-attachments/assets/aa817082-9f9e-4281-a49e-6ca66cffaeb6)
+
 
 ---
 
